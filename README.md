@@ -18,6 +18,7 @@ dependencies {
 
 2) Adicionar os seguintes itens do style.xml da sua aplicação:
 
+..
 <style name="Theme.MyTheme" parent="Theme.AppCompat.NoActionBar">
     <!-- colorPrimary is used for the default action bar background -->
     <item name="colorPrimary">@color/my_awesome_color</item>
@@ -33,8 +34,9 @@ dependencies {
 
  - 2.2) Alterar o thema da app no AndroidManisfest.xml
 
-3) Adicionar ao meu layout.xml a view Toolbar
+3) Adicionar ao meu layout.xml a view Toolbar:
 
+..
 <android.support.v7.widget.Toolbar
     android:id="@+id/my_toolbar"
     android:layout_height="?attr/actionBarSize"
@@ -43,7 +45,7 @@ dependencies {
     android:background="?attr/colorPrimary"
     />
 
-4) Setar o toolbar na activity, para isso basta pega uma referencia ao nosso toolbar e adiciona-lo em nossa activity
+4) Setar o toolbar na activity, para isso basta pega uma referencia ao nosso toolbar e adiciona-lo em nossa activity:
 
 private Toolbar myToolbar;
 

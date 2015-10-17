@@ -9,17 +9,17 @@ Links sobre Toolbar
 
 Step`s for create toolbar
 
-- 1 Se a versao do seu android studio for maior que v1.1, não é necessario implementar o suporte ao toolbar no Grandle:
+1) Se a versao do seu android studio for maior que v1.1, não é necessario implementar o suporte ao toolbar no Grandle:
 
     dependencies {
         ...
         compile "com.android.support:appcompat-v7:21.0.+"
     }
 
-- 2 Adicionar os seguintes itens do style.xml da sua aplicação:
+2) Adicionar os seguintes itens do style.xml da sua aplicação:
 
 
-    <style name="Theme.MyTheme" parent="Theme.AppCompat.NoActionBar">
+    < style name="Theme.MyTheme" parent="Theme.AppCompat.NoActionBar">
         <!-- colorPrimary is used for the default action bar background -->
         <item name="colorPrimary">@color/my_awesome_color</item>
 
@@ -34,7 +34,7 @@ Step`s for create toolbar
 
  - 2.2) Alterar o thema da app no AndroidManisfest.xml
 
-- 3 Adicionar ao meu layout.xml a view Toolbar:
+3) Adicionar ao meu layout.xml a view Toolbar:
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/my_toolbar"
@@ -44,7 +44,7 @@ Step`s for create toolbar
         android:background="?attr/colorPrimary"
     />
 
-- 4 Setar o toolbar na activity, para isso basta pega uma referencia ao nosso toolbar e adiciona-lo em nossa activity:
+4) Setar o toolbar na activity, para isso basta pega uma referencia ao nosso toolbar e adiciona-lo em nossa activity:
 
     private Toolbar myToolbar;
 

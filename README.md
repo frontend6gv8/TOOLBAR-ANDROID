@@ -1,5 +1,12 @@
 #Como criar um toolbar com material design
 
+Links sobre Toolbar
+
+ - https://materialdesignicons.com/
+ - http://romannurik.github.io/AndroidAssetStudio/nine-patches.html
+ - http://www.materialpalette.com/
+ - http://www.google.com/design/spec/layout/structure.html#structure-toolbars
+
 Step`s for create toolbar
 
 1) Se a versao do seu android studio for maior que v1.1, não é necessario implementar o suporte ao toolbar no Grandle:

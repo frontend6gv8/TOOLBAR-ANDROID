@@ -1,0 +1,11 @@
+<resources>
+    <style name="Theme.MyTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryDark">@color/color_primary_dark</item>
+        <item name="colorAccent">@color/color_accent</item>
+    </style>
+
+    <style name="Theme.ToolbarBottom" parent="Theme.MyTheme">
+        <item name="colorPrimary">@color/color_primary_dark</item>
+    </style>
+</resources>

@@ -36,7 +36,7 @@ Step`s for create toolbar
 
 3) Adicionar ao meu layout.xml a view Toolbar:
 
-    <android.support.v7.widget.Toolbar
+    < android.support.v7.widget.Toolbar
         android:id="@+id/my_toolbar"
         android:layout_height="?attr/actionBarSize"
         android:layout_width="match_parent"

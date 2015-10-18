@@ -1,5 +1,6 @@
 package com.pedidos.sistema.toolbarmaterialdesign;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
@@ -50,6 +51,19 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu_main, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
+
+        if(id == R.id.action_second){
+            Intent i = new Intent(this, SecondActivity.class);
+            startActivity(i);
+
+            return true;
+        }
         return true;
     }
 }
